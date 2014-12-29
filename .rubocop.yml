@@ -1,0 +1,9 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Exclude:
+    - parametrizr.gemspec
+    - lib/generators/parametrizr/permitter/templates/permitter.rb
+
+Style/Documentation:
+  Enabled: false

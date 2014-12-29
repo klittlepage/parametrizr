@@ -1,0 +1,8 @@
+Description:
+    Generates a permitter for a controller with the given name.
+
+Example:
+    rails generate parametrizr:permitter user
+
+    This will create:
+        app/permitters/user_permitter.rb
